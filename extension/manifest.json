@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Whop Ultimate Course Downloader",
+  "version": "2.0.0",
+  "description": "1-Click Bulk Downloader for any Whop course. Instantly generates full video manifests and downloads all lessons in 1080p.",
+  "permissions": [
+    "storage",
+    "downloads",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "*://*.whop.com/*",
+    "*://stream.mux.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Whop Bulk Downloader"
+  }
+}

@@ -1,0 +1,43 @@
+# Downloaded video files & directories
+downloads/
+*.mp4
+*.m4a
+*.part
+*.ytdl
+*.webm
+*.mkv
+
+# Temporary scrape artifacts & inspect files
+lesson_page.html
+dehydrated_snippet.txt
+next_data.json
+courses_result.json
+course_tree.json
+lesson_detail.json
+lesson_content.json
+lesson_api_response.json
+detected_links.json
+course_queue.json
+playwright_screenshot.png
+links.txt
+
+# Python & Environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.env
+
+# Browser profiles & cache
+.chrome_debug_profile/
+.whop_session/
+
+# IDE & OS
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+.DS_Store
